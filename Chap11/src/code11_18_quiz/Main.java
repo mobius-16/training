@@ -10,6 +10,9 @@ public class Main {
 		Computer c=new Computer("Vostro",70000,"silver",2000.0,"DELL");
 		System.out.println("本体色："+c.getColor());
 		System.out.println("重量:"+c.getWeight());
+		Computer c2=new Computer("SCAR_18",600000,"black",3800.0,"ASUS");
+		System.out.println("本体色："+c2.getColor());
+		System.out.println("重量："+c2.getWeight());
 	}
 
 }
